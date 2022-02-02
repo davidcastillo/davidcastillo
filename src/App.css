@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+
+.sectionTitle{
+  background-color: #35aed0;
+  color: white;
+  border-radius: 5px;
+  font-size: x-large;
+  height: 40px;
+  font-weight:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.sectionTitleGrey{
+  background-color: #545454;
+  color: white;
+  border-radius: 5px;
+  font-size: x-large;
+  height: 40px;
+  font-weight:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.profileImage{
+  max-width: 55% !important;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+
+.cardSettings{
+  width: 95%;
+  text-align: center;
+}
+
+.h1Title{
+  color: white;
+  font-weight:bolder;
+  font-size: x-large;
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 5px solid white; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+}
+h1 span { 
+  background: #35aed0;
+  padding:0px 30px; 
+}
+
+.h2Subtitle{
+  color: white;
+  font-weight:bolder;
+  font-size: large;
+}
+a {
+  text-decoration: none;
+  color: white !important;
+  text-decoration: underline;
+  font-weight:bolder;
+  font-size: medium;
+}
+
+@media (min-width: 544px)  {  
+  a {
+    font-size:10px !important;
+  }    
+}
+a:hover {
+  color: rgb(115, 255, 0) !important;
+}
+
+.header{
+  background-color: #35aed0;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  
+}
+
+.contactBar{
+  background-color: #545454;;
+  color: white;
+  font-size: 80%;
+  height: 100%;
+  margin-bottom: 2%;
+  height: 55px;
+}
+
+.justifyContent{
+  text-align: justify;
+}
