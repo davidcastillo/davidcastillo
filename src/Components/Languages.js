@@ -51,7 +51,9 @@ import {
   
   const Languages = () => {
       return ( 
+        <div>
           <Bar options={options} data={data} />
+        </div>
       );
   }
 export default Languages;

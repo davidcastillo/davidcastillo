@@ -41,7 +41,7 @@
   background-color: #35aed0;
   color: white;
   border-radius: 5px;
-  font-size: x-large;
+  font-size: large;
   height: 40px;
   font-weight:bold;
   display: flex;
@@ -54,7 +54,7 @@
   background-color: #545454;
   color: white;
   border-radius: 5px;
-  font-size: x-large;
+  font-size: large;
   height: 40px;
   font-weight:bold;
   display: flex;
@@ -78,13 +78,15 @@
 .h1Title{
   color: white;
   font-weight:bolder;
-  font-size: x-large;
+  font-size: xx-large;
   width: 100%; 
   text-align: center; 
   border-bottom: 5px solid white; 
   line-height: 0.1em;
   margin: 10px 0 20px; 
 }
+
+
 h1 span { 
   background: #35aed0;
   padding:0px 30px; 
@@ -99,15 +101,9 @@ a {
   text-decoration: none;
   color: white !important;
   text-decoration: underline;
-  font-weight:bolder;
-  font-size: medium;
+
 }
 
-@media (min-width: 544px)  {  
-  a {
-    font-size:10px !important;
-  }    
-}
 a:hover {
   color: rgb(115, 255, 0) !important;
 }
@@ -122,12 +118,27 @@ a:hover {
 .contactBar{
   background-color: #545454;;
   color: white;
-  font-size: 80%;
+  font-size: medium;
   height: 100%;
   margin-bottom: 2%;
-  height: 55px;
+  height: 65px;
+  font-weight:bold;
 }
+
 
 .justifyContent{
   text-align: justify;
+}
+
+@media (max-width: 544px)  {  
+  .h1Title{
+    font-size: x-large;
+  }
+  .contactBar{
+    font-size: small;
+    height: 90px;
+   }
+   .h2Subtitle{
+    font-size: medium;
+  }
 }
