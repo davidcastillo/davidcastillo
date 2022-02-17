@@ -45,7 +45,7 @@ function App() {
                       </div>
                   </Row>              
                   <p>
-                  I have experience and technical knowledge in programming JS, excellent level of English and an intermediate level
+                  I have experience and technical knowledge in programming, excellent level of English and an intermediate level
                   of French and Portuguese. 
                   </p>
                   <h2 className='sectionTitle'>
