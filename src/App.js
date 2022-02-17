@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Skills from './Components/Skills';
 import PersonalProjects from './Components/PersonalProjects';
 import Experiences from './Components/Experiences';
@@ -6,11 +5,7 @@ import Languages from './Components/Languages';
 import {Container,
         Row,
         Col,
-        Stack,
-        Card,
-        ListGroup,
-        ListGroupItem,
-        Image} from 'react-bootstrap';
+        Stack} from 'react-bootstrap';
 import './App.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { MdPhone } from 'react-icons/md';
@@ -45,7 +40,7 @@ function App() {
                   <h2 className="sectionTitle">PROFILE</h2>
                   <Row className="justify-content-md-center">
                       <div>
-                      <img className='profileImage' src="https://media-exp1.licdn.com/dms/image/C4E03AQHxAVUfsL81Lg/profile-displayphoto-shrink_400_400/0/1562943490508?e=1648080000&v=beta&t=QwwqNYT1fP2kRPdicwwni3GDeAVynU1IoMth0Wj0RvU">
+                      <img alt="David Castillo"className='profileImage' src="https://media-exp1.licdn.com/dms/image/C4E03AQHxAVUfsL81Lg/profile-displayphoto-shrink_400_400/0/1562943490508?e=1648080000&v=beta&t=QwwqNYT1fP2kRPdicwwni3GDeAVynU1IoMth0Wj0RvU">
                       </img>
                       </div>
                   </Row>              

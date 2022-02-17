@@ -1,12 +1,9 @@
 import React from 'react';
-import {Container,
+import {
     Row,
-    Col,
-    Stack,
     Card,
     ListGroup,
-    ListGroupItem,
-    Image} from 'react-bootstrap';
+    ListGroupItem} from 'react-bootstrap';
 // import './App.css';
 
 const PersonalProjects = () => {

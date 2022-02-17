@@ -1,12 +1,5 @@
 import React from 'react';
-import {Container,
-    Row,
-    Col,
-    Stack,
-    Card,
-    ListGroup,
-    ListGroupItem,
-    Image,
+import {
     Accordion} from 'react-bootstrap';
 
 function Experiences() {
