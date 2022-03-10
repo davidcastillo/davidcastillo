@@ -15,6 +15,7 @@ import {FaGithub} from 'react-icons/fa';
 function App() {
   return (
     <div className="App">
+      <Container>
       <Container fluid>
         <Row>
           <Col className="header">
@@ -68,6 +69,7 @@ function App() {
           </Col>
 
         </Row>
+      </Container>
       </Container>
     </div>
   );
