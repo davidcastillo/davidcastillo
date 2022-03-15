@@ -124,7 +124,7 @@ a:hover {
 .contactBar{
   background-color: #545454;;
   color: white;
-  font-size: medium;
+  font-size: 15px;
   height: 100%;
   margin-bottom: 2%;
   height: 65px;
@@ -164,7 +164,47 @@ a:hover {
   
 }
 
+.SmallskillHTML{
+  max-width: 100%;
+  height: 72px;
+}
+.SmallskillImage{
+  max-width: 100%;
+  height: 80px;
+}
 
+.SmallskillReactjs{
+  max-width: 100%;
+  height: 90px;
+}
+
+.SmallskillGithub{
+  max-width: 100%;
+  height: 59px;
+}
+
+.SmallskillAPI{
+  max-width: 100%;
+  height: 70px;
+}
+
+.SmallskillJS{
+  max-width: 100%;
+  height: 70px;
+}
+
+.SmallskillAWS{
+  max-width: 100%;
+  height: 40px;
+}
+
+
+.SmallskillCSS{
+  max-width: 100%;
+  height: 80px;
+}
+
+/**/
 .skillHTML{
   max-width: 100%;
   height: 85px;
@@ -176,7 +216,12 @@ a:hover {
 
 .skillReactjs{
   max-width: 100%;
-  height: 85px;
+  height: 90px;
+}
+
+.skillGithub{
+  max-width: 100%;
+  height: 75px;
 }
 
 .skillAPI{
@@ -197,5 +242,5 @@ a:hover {
 
 .skillCSS{
   max-width: 100%;
-  height: 90px;
+  height: 85px;
 }

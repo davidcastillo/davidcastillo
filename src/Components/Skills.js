@@ -18,7 +18,6 @@ const Skills = () => {
         <Table className='FiveColTable' responsive>
           <tbody>
             <tr>
-              
               <td><img className='skillHTML' src={html5} alt="" /></td>
               <td></td>
               <td><img className='skillImage' src={firebase} alt="" />Firebase</td>
@@ -39,7 +38,7 @@ const Skills = () => {
               <td></td>
               <td><img className='skillAPI' src={api} alt="" />APIs</td>
               <td></td>
-              <td><img className='skillImage' src={github} alt="" /></td>
+              <td><img className='skillGithub' src={github} alt="" /></td>
               
             </tr>
           </tbody>
@@ -47,29 +46,29 @@ const Skills = () => {
         <Table className='ThreeColTable' responsive>
           <tbody>
             <tr>
-              <td><img className='skillHTML' src={html5} alt="" /></td>
+              <td><img className='SmallskillHTML' src={html5} alt="" /></td>
               <td></td>
-              <td><img className='skillImage' src={firebase} alt="" />Firebase</td>
+              <td><img className='SmallskillImage' src={firebase} alt="" />Firebase</td>
             </tr>
             <tr>
               <td></td>
-              <td ><img className='skillCSS' src={css} alt="" /></td>
+              <td ><img className='SmallskillCSS' src={css} alt="" /></td>
               <td></td>
             </tr>
             <tr>
-              <td ><img className='skillAWS' src={aws} alt="" /></td>
+              <td ><img className='SmallskillAWS' src={aws} alt="" /></td>
               <td></td>
-              <td><img className='skillJS' src={js} alt="" /></td>
+              <td><img className='SmallskillJS' src={js} alt="" /></td>
             </tr>
             <tr>
               <td></td>
-              <td><img className='skillImage' src={react} alt="" />React JS</td>
+              <td><img className='SmallskillImage' src={react} alt="" />React JS</td>
               <td></td>
             </tr>
             <tr>
-              <td><img className='skillAPI' src={api} alt="" />APIs</td>
+              <td><img className='SmallskillAPI' src={api} alt="" />APIs</td>
               <td></td>
-              <td><img className='skillImage' src={github} alt="" /></td>
+              <td><img className='SmallskillGithub' src={github} alt="" /></td>
               
             </tr>
           </tbody>
