@@ -41,7 +41,7 @@ function App() {
                   <h2 className="sectionTitle">PROFILE</h2>
                   <Row className="justify-content-md-center">
                       <div>
-                      <img alt="David Castillo"className='profileImage' src="https://media-exp1.licdn.com/dms/image/C4E03AQHxAVUfsL81Lg/profile-displayphoto-shrink_400_400/0/1562943490508?e=1648080000&v=beta&t=QwwqNYT1fP2kRPdicwwni3GDeAVynU1IoMth0Wj0RvU">
+                      <img alt="David Castillo"className='profileImage' src="https://pbs.twimg.com/profile_images/1000011536646262784/uDviw32Y_400x400.jpg">
                       </img>
                       </div>
                   </Row>              
