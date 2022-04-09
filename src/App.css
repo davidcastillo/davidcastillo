@@ -270,3 +270,7 @@ margin: auto;
   color: black !important;
   text-decoration: underline;
 }
+
+.imgCertificates{
+  max-width: 100%;
+}

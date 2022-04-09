@@ -2,6 +2,7 @@ import Skills from './Components/Skills';
 import PersonalProjects from './Components/PersonalProjects';
 import Experiences from './Components/Experiences';
 import Languages from './Components/Languages';
+import Certificates from './Components/Certificates';
 import {Container,
         Row,
         Col,
@@ -65,6 +66,8 @@ function App() {
               <Experiences></Experiences>
               <h2 className="sectionTitleGrey">LANGUAGES</h2>
               <Languages/>
+              <h2 className="sectionTitleGrey">SELF LEARNING</h2>
+              <Certificates/>
             </Stack>
           </Col>
 

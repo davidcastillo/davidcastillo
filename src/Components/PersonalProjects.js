@@ -83,9 +83,9 @@ const PersonalProjects = () => {
                     <br/>
                     <br/>
                     <p className="rightAligned">
-                    Built with
-                    <img className='InlineskillImage' src={html5} alt="" />
-                    <img className='InlineskillImage' src={css} alt="" />
+                    Built with <span> </span>
+                    <img className='InlineskillImage' src={html5} alt="" /> <span> </span>
+                    <img className='InlineskillImage' src={css} alt="" /><span> </span>
                     <img className='InlineskillImage' src={js} alt="" />
                     <img className='InlineskillImage' src={firebase} alt="" />
                     <img className='InlineskillImage' src={digitalocean} alt="" />
@@ -111,9 +111,9 @@ const PersonalProjects = () => {
                     <br/>
                     <br/>
                     <p className="rightAligned">
-                    Built with
-                    <img className='InlineskillImage' src={html5} alt="" />
-                    <img className='InlineskillImage' src={css} alt="" />
+                    Built with <span> </span>
+                    <img className='InlineskillImage' src={html5} alt="" /><span> </span>
+                    <img className='InlineskillImage' src={css} alt="" /><span> </span>
                     <img className='InlineskillImage' src={js} alt="" />
 
                     </p>
@@ -139,12 +139,12 @@ const PersonalProjects = () => {
                     <br/>
                     <br/>
                     <p className="rightAligned">
-                    Built with
-                    <img className='InlineskillImage' src={html5} alt="" />
-                    <img className='InlineskillImage' src={css} alt="" />
+                    Built with <span> </span>
+                    <img className='InlineskillImage' src={html5} alt="" /> <span> </span>
+                    <img className='InlineskillImage' src={css} alt="" /><span> </span>
                     <img className='InlineskillImage' src={js} alt="" />
+                    <img className='InlineskillImage' src={firebase} alt="" />
                     <img className='InlineskillImage' src={digitalocean} alt="" />
-
                     </p>
                     </Card.Text>
 
