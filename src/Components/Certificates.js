@@ -1,7 +1,5 @@
 import React from 'react';
 import certificate from './assets/FreeCodeCampCertificateDavidCastillo.png';
-
-import {Table} from 'react-bootstrap';
 import '../App.css';
 
 
